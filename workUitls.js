@@ -1,17 +1,4 @@
-// ==UserScript==
-// @name         workUitls
-// @namespace    http://tampermonkey.net/
-// @version      1.7
-// @description  工作用的工具箱（安灯为主）
-// @author       You
-// @match        andon.oa.com/workbench/director/*
-// @match        andon.cloud.tencent.com/workbench/director/*
-// @match        andon.oa.com/ticket/detail/*
-// @match        andon.cloud.tencent.com/ticket/detail/*
-// @match        cloudbase.oa.com/env-list*
-// @match        bi.andata.oa.com/bi/Viewer
-// @grant        none
-// ==/UserScript==
+
 
 (function() {
 	Date.prototype.format = function(fmt) {
